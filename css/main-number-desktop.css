@@ -1,0 +1,19 @@
+@media screen and (min-width: 1280px){
+    .container {
+        max-width: 1280px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 199px 0 85px;
+    }
+
+    .subject {
+        padding-top: 48px;
+    }
+
+    .info-items{
+        gap: 159px;
+    }
+    
+
+}

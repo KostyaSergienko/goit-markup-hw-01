@@ -1,0 +1,139 @@
+/*================змінні======================*/
+
+:root{
+    --primary-text-color:#7A7A7A;
+    /* --accent-text-color:#000000; */
+    /* --primary-background-color:#FFFDEE; */
+    /* --primary-font-family:'Montserrat', sans-serif; */
+    /* --accent-font-family:'Tinos', sans-serif; */
+}
+
+/*===========загальне оформлення==============*/
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color:#7A7A7A;
+    /* background-color: #FFFDEE; */
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+}
+
+/* знімає декорацію списків */
+
+.list {
+    list-style: none;
+}
+
+/* -------------------------- */
+
+/* знімає декорацію силок */
+
+.link {
+    text-decoration: none;
+}
+
+/* -------------------------- */
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #FFFDEE;
+}
+
+.subtitle {
+    font-family:'Tinos', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+    color:#000000;
+    margin-bottom: 16px;
+}
+
+.subject{
+    font-family: 'Tinos', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    color: #FFFFFF;
+    background: #000000;
+    border: 1px solid #F3C653;
+    border-radius: 25px;
+
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 1.2;
+    padding: 20px 43px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #F3C653;
+    border: 1px solid #F3C653;
+    border-radius: 25px;
+
+    color: #000000;
+}
+
+.return{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C79002;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.return-arrow{
+    fill: #C79002;
+    margin-left: 16px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.return:hover{
+    color: #F3C653;
+}
+
+.return:hover > .return-arrow{
+    fill: #F3C653;
+}
